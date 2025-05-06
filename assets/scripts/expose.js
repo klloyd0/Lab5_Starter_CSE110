@@ -59,7 +59,7 @@ function init() {
   playButton.addEventListener('click', () => {
     audio.play();
     //If the Party Horn is selected, confetti should shoot out when the play button is clicked
-    if (hornSelect.value === 'party-horn' && window.JSConfetti) {
+    if (hornSelect.value === 'party-horn') {
       jsConfetti.addConfetti();
     }
   });
